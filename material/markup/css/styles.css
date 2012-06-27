@@ -3,9 +3,89 @@
 /* ============================== */
 
 	body {
-		
+		background-color: #f1f1f1;
+		font-family: arial, helvetiva, sans-serif;
+		font-size: 10px;
+		font-weight: normal;
 	}
 	
+.container {
+	padding: 20px;
+	margin: 0 auto;
+	}
+	
+.menu {
+	margin: 20px auto 0;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	}
+
+.menu ul li {
+	display: inline;
+border-right: 1px solid #e1e1e1;
+border-left: 1px solid #eee;
+line-height: 20px;
+padding: 0 10px;
+	}
+	
+.menu ul li:first-child {
+	border-left:none;
+	}
+
+.menu ul li:last-child {
+	border-right:none;
+	}
+
+.slider {
+		margin: 20px auto 0;
+	}
+
+.grass {
+	margin-top: -170px;
+	}
+
+.puffar, .quicklinks, .legal {
+		margin: 5px auto 0;
+	}
+
+.puffar div {
+	background: #ffffff;
+	border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+box-shadow:1px 1px 2px #e2e2e2;
+	}
+
+.puffar div div {
+	margin: 20px;
+	min-height: 135px;
+		border-radius: 0; 
+-moz-border-radius: 0; 
+-webkit-border-radius: 0; 
+box-shadow: none;
+	}
+
+div.quicklinks {
+		background: #ffffff;
+	border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+box-shadow:1px 1px 2px #e2e2e2;
+	}
+
+div.quicklinks div {
+
+min-height: 15px;
+margin: 9px;
+	}
+
+.quicklinks ul li {
+	display: inline;
+border-right: 1px solid #e1e1e1;
+border-left: 1px solid #eee;
+line-height: 20px;
+padding: 0 10px;
+	}
 
 /* ============================= */
 /* ! Layout for mobile version   */
