@@ -2,11 +2,16 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 
-	body {
-		background-color: #f1f1f1;
-		font-family: arial, helvetiva, sans-serif;
-		font-size: 10px;
-		font-weight: normal;
+body {
+	background-color: #f1f1f1;
+	font-family: arial, helvetiva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.9em;
+    font-weight: bold;
 	}
 	
 .container {
@@ -63,6 +68,17 @@ box-shadow:1px 1px 2px #e2e2e2;
 -moz-border-radius: 0; 
 -webkit-border-radius: 0; 
 box-shadow: none;
+	}
+	
+.puffar p {
+	font-color: #646567;
+	font-size: 1.2em;
+	}
+	
+.puffar img {
+	float: right;
+	widht: 150px;
+	height: 150px;
 	}
 
 div.quicklinks {
