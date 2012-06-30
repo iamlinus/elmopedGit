@@ -4,7 +4,7 @@
 
 body {
 	background-color: #f1f1f1;
-	font-family: arial, helvetiva, sans-serif;
+	font-family: arial, helvetica, sans-serif;
 	font-size: 10px;
 	font-weight: normal;
 }
@@ -12,6 +12,15 @@ body {
 h3 {
 	font-size: 1.9em;
     font-weight: bold;
+	}
+
+a {
+	color: #41a62a;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 	}
 	
 .container {
@@ -27,17 +36,18 @@ h3 {
 
 .menu ul li {
 	display: inline;
-border-right: 1px solid #e1e1e1;
-border-left: 1px solid #eee;
-line-height: 20px;
-padding: 0 10px;
+	border-right: 1px solid #e1e1e1;
+	border-left: 1px solid #eee;
+	display: inline-block;
+    line-height: 2em;
+	padding: 0 10px;
 	}
 	
 .menu ul li:first-child {
 	border-left:none;
 	}
 
-.menu ul li:last-child {
+.menu ul li:last-child, .quicklinks ul li:last-child {
 	border-right:none;
 	}
 
@@ -71,8 +81,13 @@ box-shadow: none;
 	}
 	
 .puffar p {
-	font-color: #646567;
+	color: #646567;
 	font-size: 1.2em;
+	line-height: 1.4em;
+	}
+
+.puffar .leftpuff {
+	margin: 0 1.5% 0 0;
 	}
 	
 .puffar img {
@@ -93,15 +108,39 @@ div.quicklinks div {
 
 min-height: 15px;
 margin: 9px;
+font-align: right;
+	}
+
+.quicklinks ul {
+text-align: right;
 	}
 
 .quicklinks ul li {
 	display: inline;
 border-right: 1px solid #e1e1e1;
-border-left: 1px solid #eee;
 line-height: 20px;
 padding: 0 10px;
 	}
+
+.quicklinks {
+	line-height: 2em;
+	color: #646567;
+	font-size: 1.1em;
+	}
+
+.legal {
+	text-align: center;
+	color: #646567;
+	}
+	
+.legal img {
+	height: 30px;
+	margin: 15px 0 10px;
+	}
+	
+.puffar .sixcol {
+    width: 49.2%;
+}
 
 /* ============================= */
 /* ! Layout for mobile version   */
