@@ -29,13 +29,12 @@ a:hover {
 	}
 	
 .menu {
-	margin: 20px auto 0;
+	margin: 20px auto;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	}
 
 .menu ul li {
-	display: inline;
 	border-right: 1px solid #e1e1e1;
 	border-left: 1px solid #eee;
 	display: inline-block;
@@ -52,11 +51,12 @@ a:hover {
 	}
 
 .slider {
-		margin: 20px auto 0;
+		margin: 0 auto;
 	}
 
 .grass {
-	margin-top: -170px;
+	margin: -170px auto 0;
+	width: 960px;
 	}
 
 .puffar, .quicklinks, .legal {
@@ -66,18 +66,18 @@ a:hover {
 .puffar div {
 	background: #ffffff;
 	border-radius: 5px; 
--moz-border-radius: 5px; 
--webkit-border-radius: 5px; 
-box-shadow:1px 1px 2px #e2e2e2;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow:1px 1px 2px #e2e2e2;
 	}
 
 .puffar div div {
 	margin: 20px;
 	min-height: 135px;
-		border-radius: 0; 
--moz-border-radius: 0; 
--webkit-border-radius: 0; 
-box-shadow: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: none;
 	}
 	
 .puffar p {
@@ -97,29 +97,28 @@ box-shadow: none;
 	}
 
 div.quicklinks {
-		background: #ffffff;
+	background: #ffffff;
 	border-radius: 5px; 
--moz-border-radius: 5px; 
--webkit-border-radius: 5px; 
-box-shadow:1px 1px 2px #e2e2e2;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow:1px 1px 2px #e2e2e2;
 	}
 
 div.quicklinks div {
-
-min-height: 15px;
-margin: 9px;
-font-align: right;
+	min-height: 15px;
+	margin: 9px;
+	font-align: right;
 	}
 
 .quicklinks ul {
-text-align: right;
+	text-align: right;
 	}
 
 .quicklinks ul li {
 	display: inline;
-border-right: 1px solid #e1e1e1;
-line-height: 20px;
-padding: 0 10px;
+	border-right: 1px solid #e1e1e1;
+	line-height: 20px;
+	padding: 0 10px;
 	}
 
 .quicklinks {
@@ -203,7 +202,62 @@ padding: 0 10px;
 }
 
 
+/* ==== Contentsida ==== */
 
+.top-content {
+	margin: 0 auto;
+	}
+
+.top-content ul {
+	float: right;
+    height: 50px;
+	}
+	
+.top-content ul li {
+	display: inline-block;
+    line-height: 50px;
+	padding: 0 10px;
+	font-size: 1.2em;
+}
+
+
+.top-content ul li a {
+	color: #000000;
+	display: block;
+	float: left;
+}
+
+.top-content ul li a:hover, .top-content ul li a:active {
+	background: url("../bilder/hover_2nav.png") no-repeat scroll center 38px transparent;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+
+.main-content {
+	background: #ffffff;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow:1px 1px 2px #e2e2e2;	
+	color: #646567;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.main-content .img img {
+	margin: 0 40px;
+	}
+
+.main-content .text {
+	padding: 0 70px;
+	
+	}
+
+.main-content h1 {
+	font-size: 20px;
+	margin: 65px 0 10px 0;	
+}
 
 
 
