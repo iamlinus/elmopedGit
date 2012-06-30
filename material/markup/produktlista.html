@@ -78,21 +78,29 @@
              <div class="product_container" id="product_cake">
                 <a href="#"><img src="bilder/cake/01.png"></a>
                 <a href="#"><img src="bilder/cake/02.png"></a>
-                <a href="#"><img src="bilder/cake/03.png"></a>
-                <a href="#"><img src="bilder/cake/04.png"></a>
-                <a href="#"><img src="bilder/cake/05.png"></a>
-                <a href="#"><img src="bilder/cake/06.png"></a>
+                <a href="#"><img src=""></a>
+                <a href="#"><img src=""></a>
+                <a href="#"><img src=""></a>
+                <a href="#"><img src=""></a>
+            </div>
+             <div class="product_container" id="product_Linus">
+                <a href="#"><img src=""></a>
+                <a href="#"><img src=""></a>
+                <a href="#"><img src=""></a>
             </div>
             <div style="clear:both"></div>
         </div>
     </div>
-    <div class="nav">
-        <a href="#" class="product_nav" id="nav_browser">Browser</a>
-        <a href="#" class="product_nav" id="nav_apple">Apple</a>
-        <a href="#" class="product_nav" id="nav_construction">Construction</a>
-        <a href="#" class="product_nav" id="nav_cake">Cake</a>
-    </div>
+    <div class="navwrapper">
+    	<div class="nav">
+        	<a href="#" class="product_nav" id="nav_browser">Browser</a>
+        	<a href="#" class="product_nav" id="nav_apple">Apple</a>
+        	<a href="#" class="product_nav" id="nav_construction">Construction</a>
+        	<a href="#" class="product_nav" id="nav_cake">Cake</a>
+        	<a href="#" class="product_nav" id="nav_Linus">Linus</a>
 
+    	</div>
+	</div>
 
 
 </div>
@@ -197,7 +205,7 @@
             var el_l = $("#"+contid+" a:last-child");
             var total_new = $("#"+contid).children().length;
 
-            var movement = -700 * index;
+            var movement = -960 * index;
 
             if (cindex > index) {
                 loopMoveRight(elLast, movement); 

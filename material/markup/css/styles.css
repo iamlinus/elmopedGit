@@ -155,8 +155,9 @@ padding: 0 10px;
     overflow: hidden;
     margin: 0 auto;
     margin-top: 10px;
-    padding: 10px 0;
+    padding: 20px 0;
 	background-color: #ffffff;
+	height: 125px;
 }
 #product_nav_container_wide {
     width: 6000px;
@@ -172,15 +173,18 @@ padding: 0 10px;
     margin: 0 12px;
     position: relative;
 }
+.navwrapper {
+	text-align:center;
+	background: url("../bilder/grey.png") repeat-x scroll 0 0 #D9D9D9;	
+}
 .nav {
-    width: 960px;
-    background: #d9d9d9;
+    display: inline-block;
     margin: 0 auto;
-    text-align: center;
     overflow: hidden;
+    background: repeat-x scroll 0 0 transparent;
 }
 .nav a {
-    color: #000;
+    color: #646464;
     font-size: 12px;
     letter-spacing: 1px;
     margin-right: 10px;
@@ -191,8 +195,11 @@ padding: 0 10px;
 	float: left;
 }
 .nav a:hover, .nav a:active {
+	background: url("../bilder/hover_product_nav.png") no-repeat scroll center 0 transparent;
+}
+
+.nav .active {
 	font-weight: bold;
-	background: url("../bilder/scooter.jpg") 0 0;
 }
 
 
