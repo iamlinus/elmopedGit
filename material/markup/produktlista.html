@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>The 1140px Grid &middot; Fluid down to mobile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- jQuery för menyn -->
+	    <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+</head>
+<body>
+
+<div class="container">
+<div class="header">
+<div class="row">
+		<div class="twocol">
+			<a class="" href="/"><img alt="Esho" src="bilder/logo.png"></a>
+		</div>
+		<div class="tencol last">
+		</div>
+</div>
+
+<div class="row menu">
+		<div class="twelvecol">
+<ul>
+<li>Menyval 1</li>
+<li>Menyval 2</li>
+<li>Menyval 3</li>
+<li>Menyval 4</li>
+<li>Menyval 5</li>
+</ul>
+		</div>
+</div>
+</div>
+<div class="content">
+
+
+
+
+<div class="row products">
+
+ <div class="product_nav_container">
+        <div id="product_nav_container_wide">
+            <div class="product_container" id="product_browser">
+                <a href="#"><img src="bilder/browser/Chrome.png"></a>
+                <a href="#"><img src="bilder/browser/Safari.png"></a>
+                <a href="#"><img src="bilder/browser/Firefox.png"></a>
+                <a href="#"><img src="bilder/browser/IE.png"></a>
+                <a href="#"><img src="bilder/browser/Maxthon.png"></a>
+                <a href="#"><img src="bilder/browser/Opera.png"></a>
+            </div>
+            <div class="product_container" id="product_apple">
+                <a href="#"><img src="bilder/apple/iMac.png"></a>
+                <a href="#"><img src="bilder/apple/MacBook.png"></a>
+                <a href="#"><img src="bilder/apple/MacMini.png"></a>
+                <a href="#"><img src="bilder/apple/iPhone.png"></a>
+                <a href="#"><img src="bilder/apple/Macpro.png"></a>
+            </div>
+            <div class="product_container" id="product_construction">
+                <a href="#"><img src="bilder/construction/01.png"></a>
+                <a href="#"><img src="bilder/construction/02.png"></a>
+                <a href="#"><img src="bilder/construction/03.png"></a>
+                <a href="#"><img src="bilder/construction/04.png"></a>
+            </div>
+             <div class="product_container" id="product_cake">
+                <a href="#"><img src="bilder/cake/01.png"></a>
+                <a href="#"><img src="bilder/cake/02.png"></a>
+                <a href="#"><img src="bilder/cake/03.png"></a>
+                <a href="#"><img src="bilder/cake/04.png"></a>
+                <a href="#"><img src="bilder/cake/05.png"></a>
+                <a href="#"><img src="bilder/cake/06.png"></a>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="#" class="product_nav" id="nav_browser">Browser</a>
+        <a href="#" class="product_nav" id="nav_apple">Apple</a>
+        <a href="#" class="product_nav" id="nav_construction">Construction</a>
+        <a href="#" class="product_nav" id="nav_cake">Cake</a>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="row slider">
+		<div class="twelvecol">
+<img src="bilder/slide1.png" alt="">
+<img class="grass" src="bilder/grass.png">
+		</div>
+</div>
+</div>
+<div class="footer">
+<div class="row puffar">
+		<div class="sixcol leftpuff">
+<div>
+<img src="bilder/scooter.jpg" alt="Esho el-scooter">
+
+<h3>Puff 1 rubrik</h3>
+<p>Lorizzle crazy dolizzle sit boom shackalack, own yo' adipiscing elit. </p>
+</div>
+		</div>
+		<div class="sixcol last">
+<div>
+<img src="bilder/battery.jpg" alt="Esho el-scooter">
+<h3>Puff 2 rubrik</h3>
+<p>Lorizzle crazy dolizzle sit boom shackalack, own yo' adipiscing elit. </p>
+</div>
+		</div>
+</div>
+
+<div class="row quicklinks">
+		<div class="sixcol">
+<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
+		</div>
+		<div class="sixcol last">
+<ul>
+<li><a href="#">Menyval 1</a></li>
+<li><a href="#">Menyval 2</a></li>
+<li><a href="#">Menyval 3</a></li>
+<li><a href="#">Menyval 4</a></li>
+<li><a href="#">Menyval 5</a></li>
+</ul>
+		</div>
+</div>
+<div class="row legal">
+		<div class="twelvecol">
+		<img src="bilder/logo.png" alt="Logo">
+<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
+		</div>
+</div>
+
+</div>
+</div>
+
+    <script>
+    $(document).ready(function() {
+        var displayed = "product_browser";
+        var cindex = 0; // current index (displayed product)
+
+        function loopMoveLeft(el, move) {
+            if (el.length == 1) {
+                setTimeout(function() {
+                    el.animate({ left: move }, {
+                        duration: 'slow',
+                        easing: 'easeOutBounce'
+                    });
+                    loopMoveLeft(el.next(), move);
+                }, 100);
+            }
+        }
+
+        function loopMoveRight(el, move) {
+            if (el.length == 1) {
+                setTimeout(function() {
+                    el.animate({ left: move }, {
+                        duration: 'slow',
+                        easing: 'easeOutBounce'
+                    });
+                    loopMoveRight(el.prev(), move);
+                }, 100);
+            }
+        }
+
+        function slideItem(obj_el) {
+            var product = $(obj_el).attr("id").replace("nav_", "");
+            var contid = 'product_' + product;
+
+            // current displayed element
+            var elFirst = $("#"+displayed+" a:first-child");
+            var elLast = $("#"+displayed+" a:last-child");
+            var total_el = $("#"+displayed).children().length;
+
+            var index = $(obj_el).index();
+
+            // new element to displayed
+            var el_f = $("#"+contid+" a:first-child");
+            var el_l = $("#"+contid+" a:last-child");
+            var total_new = $("#"+contid).children().length;
+
+            var movement = -700 * index;
+
+            if (cindex > index) {
+                loopMoveRight(elLast, movement); 
+                setTimeout(function() {
+                    loopMoveRight(el_l, movement) 
+                }, (total_el + 1) * 100);
+            } else if (cindex < index) {
+                loopMoveLeft(elFirst, movement); 
+                setTimeout(function() {
+                    loopMoveLeft(el_f, movement)
+                }, (total_el + 1) * 100);
+            } 
+
+            cindex = index;
+            displayed = contid;
+
+            return (total_el + 5 + total_new) * 100;
+        }
+
+        var timeout;
+
+        $(".product_nav").click(function() {
+            $(".product_nav").unbind('click');
+            timeout = slideItem(this);
+
+            // prevent abusive click
+            setTimeout(function() {
+                $(".product_nav").bind('click', function() {
+                    timeout = slideItem(this);
+                });
+            }, timeout);
+        });
+    });
+    </script>
+
+</body>
+</html>

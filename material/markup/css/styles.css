@@ -142,6 +142,65 @@ padding: 0 10px;
     width: 49.2%;
 }
 
+
+
+/* ====== Produktslider ====== */
+
+
+
+* {
+    font-family: Arial, "Free Sans";
+}
+.product_nav_container {
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0;
+	background-color: #ffffff;
+}
+#product_nav_container_wide {
+    width: 6000px;
+    position: relative;
+}
+.product_container {
+    text-align: center;
+    width: 960px;
+    float: left;
+    position: relative;
+}
+.product_container a {
+    margin: 0 12px;
+    position: relative;
+}
+.nav {
+    width: 960px;
+    background: #d9d9d9;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.nav a {
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-decoration: none;
+    line-height: 4em;
+    margin: 0 25px;
+	display: block;
+	float: left;
+}
+.nav a:hover, .nav a:active {
+	font-weight: bold;
+	background: url("../bilder/scooter.jpg") 0 0;
+}
+
+
+
+
+
+
+
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
