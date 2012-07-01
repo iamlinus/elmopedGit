@@ -7,11 +7,11 @@
 
 get_header(); ?>
 
-<div class="content">
+<div class="content standard">
 	
 	<div class="row top-content">
 		<div class="twelvecol">
-			<img src="/wp-content/themes/esho/bilder/EshoCSLi30.png">
+			<img src="/wp-content/themes/esho/bilder/produkt-dummy.png">
 			<ul>
 				<li><a href="#">Sub-menyval 1</a></li>
 				<li><a href="#">Sub-menyval 2</a></li>

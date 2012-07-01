@@ -49,7 +49,21 @@
 	<link rel="stylesheet" href="/wp-content/themes/esho/css/styles.css" type="text/css" media="screen" />
 	
 	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
-	<script type="text/javascript" src="/wp-content/themes/esho/js/css3-mediaqueries.js"></script>	
+	<script type="text/javascript" src="/wp-content/themes/esho/js/css3-mediaqueries.js"></script>
+	
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	
+	<!-- Slider -->
+	<script src="/wp-content/themes/esho/js/slides.jquery.js"></script>
+		<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				generateNextPrev: true
+			});
+		});
+	</script>
 
 </head>
 
