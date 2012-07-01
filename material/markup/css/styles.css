@@ -64,6 +64,10 @@ a:hover {
 	}
 
 /* === Load CSS before JavaScript === */
+
+#slides {
+	z-index: 1;
+	}
 		
 /* Slides container Important: Set the width of your slides container. Set to display none, prevents content flash */
 .slides_container {
@@ -118,6 +122,10 @@ Important: Set the width of your slides. If height not specified height will be 
 	background: url("../bilder/graphicSprite.png") repeat scroll 0 -15px transparent;
 }	
 
+.footer {
+	z-index: 110;
+	
+	}
 
 .grass {
 	margin: -170px auto 0;
