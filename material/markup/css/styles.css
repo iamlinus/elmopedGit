@@ -49,6 +49,15 @@ a:hover {
 .menu ul li:last-child, .quicklinks ul li:last-child {
 	border-right:none;
 	}
+	
+.menu a {
+	color: #000000;
+	}
+
+.menu a:hover, .menu a:active {
+	color: #41a62a;
+	text-decoration: none;
+	}
 
 .slider {
 		margin: 0 auto;
