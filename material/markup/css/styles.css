@@ -63,6 +63,62 @@ a:hover {
 		margin: 0 auto;
 	}
 
+/* === Load CSS before JavaScript === */
+		
+/* Slides container Important: Set the width of your slides container. Set to display none, prevents content flash */
+.slides_container {
+	width:960px;
+	display:none;
+	}
+
+/* Each slide
+Important: Set the width of your slides. If height not specified height will be set by the slide content. Set to display block */
+
+.slides_container div {
+	width:960px;
+	height:440px;
+	display:block;
+	}
+	
+#slides .prev, #slides .next {
+	display: none;
+}
+		
+/* Optional: Reset list default style */
+.pagination {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+    right: 160px;
+    top: 125px;
+    z-index: 100;
+	}
+
+.pagination li {
+    display: inline-block;
+
+	}
+
+.pagination li a {
+	text-indent: -9999px;
+	background: url("../bilder/graphicSprite.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 12px;
+    margin: 0 2px;
+    width: 12px;
+	}
+
+/* Optional: Show the current slide in the pagination */
+.pagination li.current a {
+	background: url("../bilder/graphicSprite.png") repeat scroll 0 -15px transparent;
+	}
+	
+.pagination li a:hover, .pagination li a:active {
+	background: url("../bilder/graphicSprite.png") repeat scroll 0 -15px transparent;
+}	
+
+
 .grass {
 	margin: -170px auto 0;
 	width: 960px;

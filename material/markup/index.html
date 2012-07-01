@@ -16,80 +16,101 @@
 	
 	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="js/slides.jquery.js"></script>
+		<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				generateNextPrev: true
+			});
+		});
+	</script>
 </head>
 <body>
 
 <div class="container">
-<div class="header">
-<div class="row">
-		<div class="twocol">
+	<div class="header">
+		<div class="row">
+			<div class="twocol">
 			<a class="" href="/"><img alt="Esho" src="bilder/logo.png"></a>
+			</div>
+			<div class="tencol last">
+			</div>
 		</div>
-		<div class="tencol last">
+		<div class="row menu">
+			<div class="twelvecol">
+				<ul>
+					<li>Menyval 1</li>
+					<li>Menyval 2</li>
+					<li>Menyval 3</li>
+					<li>Menyval 4</li>
+					<li>Menyval 5</li>
+				</ul>
+			</div>
 		</div>
-</div>
-
-<div class="row menu">
-		<div class="twelvecol">
-<ul>
-<li>Menyval 1</li>
-<li>Menyval 2</li>
-<li>Menyval 3</li>
-<li>Menyval 4</li>
-<li>Menyval 5</li>
-</ul>
+	</div>
+	<div class="content">
+		<div class="row slider">
+			<div class="twelvecol">
+				<div id="slides">
+					<div class="slides_container">
+						<div>
+							<img src="bilder/slide1.png" alt="">
+						</div>
+						<div>
+							<img src="bilder/slide1.png" alt="">
+						</div>
+						<div>
+							<h1>Slide 3</h1>
+							<img src="bilder/slide1.png" alt="">
+						</div>
+						<div>
+							<img src="bilder/slide1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-</div>
-</div>
-<div class="content">
-<div class="row slider">
-		<div class="twelvecol">
-<img src="bilder/slide1.png" alt="">
-<img class="grass" src="bilder/grass.png">
+	</div>
+	<div class="footer">
+		<div class="row puffar">
+			<div class="sixcol leftpuff">
+				<div>
+					<img src="bilder/scooter.jpg" alt="Esho el-scooter">
+					<h3>Puff 1 rubrik</h3>
+					<p>Lorizzle crazy dolizzle sit boom shackalack, own yo' adipiscing elit. </p>
+				</div>
+			</div>
+			<div class="sixcol last">
+				<div>
+					<img src="bilder/battery.jpg" alt="Esho el-scooter">
+					<h3>Puff 2 rubrik</h3>
+					<p>Lorizzle crazy dolizzle sit boom shackalack, own yo' adipiscing elit. </p>
+				</div>
+			</div>
 		</div>
-</div>
-</div>
-<div class="footer">
-<div class="row puffar">
-		<div class="sixcol leftpuff">
-<div>
-<img src="bilder/scooter.jpg" alt="Esho el-scooter">
-
-<h3>Puff 1 rubrik</h3>
-<p>Lorizzle crazy dolizzle sit boom shackalack, own yo' adipiscing elit. </p>
-</div>
+		<div class="row quicklinks">
+			<div class="sixcol">
+				<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
+			</div>
+			<div class="sixcol last">
+				<ul>
+					<li><a href="#">Menyval 1</a></li>
+					<li><a href="#">Menyval 2</a></li>
+					<li><a href="#">Menyval 3</a></li>
+					<li><a href="#">Menyval 4</a></li>
+					<li><a href="#">Menyval 5</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="sixcol last">
-<div>
-<img src="bilder/battery.jpg" alt="Esho el-scooter">
-<h3>Puff 2 rubrik</h3>
-<p>Lorizzle crazy dolizzle sit boom shackalack, own yo' adipiscing elit. </p>
-</div>
+		<div class="row legal">
+			<div class="twelvecol">
+				<img src="bilder/logo.png" alt="Logo">
+				<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
+			</div>
 		</div>
-</div>
-
-<div class="row quicklinks">
-		<div class="sixcol">
-<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
-		</div>
-		<div class="sixcol last">
-<ul>
-<li><a href="#">Menyval 1</a></li>
-<li><a href="#">Menyval 2</a></li>
-<li><a href="#">Menyval 3</a></li>
-<li><a href="#">Menyval 4</a></li>
-<li><a href="#">Menyval 5</a></li>
-</ul>
-		</div>
-</div>
-<div class="row legal">
-		<div class="twelvecol">
-		<img src="bilder/logo.png" alt="Logo">
-<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
-		</div>
-</div>
-
-</div>
+	</div>
 </div>
 </body>
 </html>
