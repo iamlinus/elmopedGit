@@ -16,27 +16,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>
-		<?php
-		/*
-		 * Print the <title> tag based on what is being viewed.
-		 */
-		global $page, $paged;
-	
-		wp_title( '|', true, 'right' );
-	
-		// Add the blog name.
-		bloginfo( 'name' );
-	
-		// Add the blog description for the home/front page.
-		$site_description = get_bloginfo( 'description', 'display' );
-		if ( $site_description && ( is_home() || is_front_page() ) )
-			echo " | $site_description";
-	
-		// Add a page number if necessary:
-		if ( $paged >= 2 || $page >= 2 )
-			echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
-	
-		?>
+	<?php wp_title( '|', true, 'right'); ?> Esho el-scooter - sätt bara in kontakten i eluttaget och ladda
 	</title>
 	
 	<!-- 1140px Grid styles for IE -->
@@ -78,15 +58,10 @@
 				</div>
 				<div class="tencol last"></div>
 			</div>
-			<div class="row menu">
+			<div class="row">
 				<div class="twelvecol">
-					<ul>
-						<li><a href="#">Menyval 1</a></li>
-						<li><a href="#">Menyval 2</a></li>
-						<li><a href="#">Menyval 3</a></li>
-						<li><a href="#">Menyval 4</a></li>
-						<li><a href="#">Menyval 5</a></li>
-					</ul>
+<!-- Läser ut menyn. Mer info på http://codex.wordpress.org/Function_Reference/wp_nav_menu --> 
+					<?php wp_nav_menu(); ?>
 				</div>
 			</div>
 		</div>

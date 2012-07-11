@@ -54,7 +54,7 @@ a:hover {
 	color: #000000;
 	}
 
-.menu a:hover, .menu a:active {
+.menu a:hover, .menu a:active, li.current_page_item a {
 	color: #41a62a;
 	text-decoration: none;
 	}
@@ -70,7 +70,7 @@ a:hover {
 	}
 		
 /* Slides container Important: Set the width of your slides container. Set to display none, prevents content flash */
-.slides_container {
+#slides .gallery {
 	width:960px;
 	display:none;
 	z-index: -1;
@@ -79,7 +79,7 @@ a:hover {
 /* Each slide
 Important: Set the width of your slides. If height not specified height will be set by the slide content. Set to display block */
 
-.slides_container div {
+#slides .gallery div {
 	width:960px;
 	height:440px;
 	display:block;
@@ -134,6 +134,17 @@ Important: Set the width of your slides. If height not specified height will be 
 	background: url("../bilder/graphicSprite.png") repeat scroll 0 -15px transparent;
 }	
 
+
+#gallery-1 .gallery-item {
+margin-top: 0px !important;
+width: 100% !important;
+} 
+
+#gallery-1 img {
+border: none !important;
+}
+
+/* <====   =====> */
 .footer {
 	z-index: 110;
 	
