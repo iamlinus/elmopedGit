@@ -388,27 +388,8 @@ function twentyeleven_widgets_init() {
 	register_widget( 'Twenty_Eleven_Ephemera_Widget' );
 
 	register_sidebar( array(
-		'name' => __( 'Main Sidebar', 'twentyeleven' ),
-		'id' => 'sidebar-1',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name' => __( 'Showcase Sidebar', 'twentyeleven' ),
-		'id' => 'sidebar-2',
-		'description' => __( 'The sidebar for the optional Showcase Template', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name' => __( 'Footer Area One', 'twentyeleven' ),
-		'id' => 'sidebar-3',
+		'name' => __( 'Footer Area Left', 'twentyeleven' ),
+		'id' => 'footer_left',
 		'description' => __( 'An optional widget area for your site footer', 'twentyeleven' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
@@ -417,8 +398,8 @@ function twentyeleven_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name' => __( 'Footer Area Two', 'twentyeleven' ),
-		'id' => 'sidebar-4',
+		'name' => __( 'Footer Area Right', 'twentyeleven' ),
+		'id' => 'footer_right',
 		'description' => __( 'An optional widget area for your site footer', 'twentyeleven' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
@@ -426,15 +407,6 @@ function twentyeleven_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 
-	register_sidebar( array(
-		'name' => __( 'Footer Area Three', 'twentyeleven' ),
-		'id' => 'sidebar-5',
-		'description' => __( 'An optional widget area for your site footer', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
 }
 add_action( 'widgets_init', 'twentyeleven_widgets_init' );
 

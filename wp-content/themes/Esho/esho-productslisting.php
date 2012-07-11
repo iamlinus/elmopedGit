@@ -12,71 +12,93 @@
 			<div class="twelvecol">
 				 <div class="product_nav_container">
 			        <div id="product_nav_container_wide">
-			            <div class="product_container" id="product_browser">
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/browser/Chrome.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/browser/Safari.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/browser/Firefox.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/browser/IE.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/browser/Maxthon.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/browser/Opera.png"></a>
+			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId1', true) ?>">
+			            
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink1-1', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink1-1', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink1-2', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink1-2', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink1-3', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink1-3', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink1-4', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink1-4', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink1-5', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink1-5', true) ?>"></a>
+			                   
 			            </div>
-			            <div class="product_container" id="product_apple">
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/apple/iMac.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/apple/MacBook.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/apple/MacMini.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/apple/iPhone.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/apple/Macpro.png"></a>
+			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId2', true) ?>">
+			            
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink2-1', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink2-1', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink2-2', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink2-2', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink2-3', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink2-3', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink2-4', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink2-4', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink2-5', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink2-5', true) ?>"></a>
+			                   
 			            </div>
-			            <div class="product_container" id="product_construction">
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/construction/01.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/construction/02.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/construction/03.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/construction/04.png"></a>
+			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId3', true) ?>">
+			            
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink3-1', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink3-1', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink3-2', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink3-2', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink3-3', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink3-3', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink3-4', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink3-4', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink3-5', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink3-5', true) ?>"></a>
+			                   
 			            </div>
-			             <div class="product_container" id="product_cake">
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/cake/01.png"></a>
-			                <a href="#"><img src="/wp-content/themes/esho/bilder/cake/02.png"></a>
-			                <a href="#"><img src=""></a>
-			                <a href="#"><img src=""></a>
-			                <a href="#"><img src=""></a>
-			                <a href="#"><img src=""></a>
+			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId4', true) ?>">
+			            
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink4-1', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink4-1', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink4-2', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink4-2', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink4-3', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink4-3', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink4-4', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink4-4', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink4-5', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink4-5', true) ?>"></a>
+			                   
 			            </div>
-			             <div class="product_container" id="product_Linus">
-			                <a href="#"><img src=""></a>
-			                <a href="#"><img src=""></a>
-			                <a href="#"><img src=""></a>
+			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId5', true) ?>">
+			            
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink5-1', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink5-1', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink5-2', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink5-2', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink5-3', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink5-3', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink5-4', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink5-4', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink5-5', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink5-5', true) ?>"></a>
+			                   
 			            </div>
-			            <div style="clear:both"></div>
+			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId6', true) ?>">
+			            
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink6-1', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink6-1', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink6-2', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink6-2', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink6-3', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink6-3', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink6-4', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink6-4', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink6-5', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink6-5', true) ?>"></a>
+			                   
+			            </div>
+			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId7', true) ?>">
+			            
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink7-1', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink7-1', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink7-2', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink7-2', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink7-3', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink7-3', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink7-4', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink7-4', true) ?>"></a>
+<a href="<?php echo get_post_meta($post->ID, 'ProductLink7-5', true) ?>"><img src="<?php echo get_post_meta($post->ID, 'ProductLink7-5', true) ?>"></a>
+			                   
+			            </div>
+
+			           <div style="clear:both"></div>
 			        </div>
 			    </div>
 			    <div class="navwrapper">
 			    	<div class="nav">
-			        	<a href="#" class="product_nav" id="nav_browser">Browser</a>
-			        	<a href="#" class="product_nav" id="nav_apple">Apple</a>
-			        	<a href="#" class="product_nav" id="nav_construction">Construction</a>
-			        	<a href="#" class="product_nav" id="nav_cake">Cake</a>
-			        	<a href="#" class="product_nav" id="nav_Linus">Linus</a>
+			    	
+<a href="#" class="product_nav" id="nav_<?php echo get_post_meta($post->ID, 'ProductCategoryId1', true) ?>"><?php echo get_post_meta($post->ID, 'ProductCategoryName1', true) ?></a>
+<a href="#" class="product_nav" id="nav_<?php echo get_post_meta($post->ID, 'ProductCategoryId2', true) ?>"><?php echo get_post_meta($post->ID, 'ProductCategoryName2', true) ?></a>
+<a href="#" class="product_nav" id="nav_<?php echo get_post_meta($post->ID, 'ProductCategoryId3', true) ?>"><?php echo get_post_meta($post->ID, 'ProductCategoryName3', true) ?></a>
+<a href="#" class="product_nav" id="nav_<?php echo get_post_meta($post->ID, 'ProductCategoryId4', true) ?>"><?php echo get_post_meta($post->ID, 'ProductCategoryName4', true) ?></a>
+<a href="#" class="product_nav" id="nav_<?php echo get_post_meta($post->ID, 'ProductCategoryId5', true) ?>"><?php echo get_post_meta($post->ID, 'ProductCategoryName5', true) ?></a>
+<a href="#" class="product_nav" id="nav_<?php echo get_post_meta($post->ID, 'ProductCategoryId6', true) ?>"><?php echo get_post_meta($post->ID, 'ProductCategoryName6', true) ?></a>
+<a href="#" class="product_nav" id="nav_<?php echo get_post_meta($post->ID, 'ProductCategoryId7', true) ?>"><?php echo get_post_meta($post->ID, 'ProductCategoryName7', true) ?></a>
+			        	
 			    	</div>
 				</div>
 			</div>
 		</div>
 		<div class="row slider">
 			<div class="twelvecol">
-				<div id="slides">
-					<div class="slides_container">
-						<div>
-							<img src="/wp-content/themes/esho/bilder/slide1.png" alt="">
-						</div>
-						<div>
-							<img src="/wp-content/themes/esho/bilder/logo.png" alt="">
-						</div>
-						<div>
-							<img src="/wp-content/themes/esho/bilder/slide1.png" alt="">
-						</div>
-						<div>
-							<img src="/wp-content/themes/esho/bilder/slide1.png" alt="">
-						</div>
-					</div>
+							<div id="slides">
+					<!-- OBS! För att funktionaliteten ska fungera måste media.php från temamappen användas -->
+					<?php echo do_shortcode('[gallery link="none" columns="99" size="full"  icontag="div" captiontag="p"]'); ?>
 				</div>
 			</div>
 		</div>

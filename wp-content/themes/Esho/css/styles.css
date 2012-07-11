@@ -34,7 +34,7 @@ a:hover {
 	text-transform: uppercase;
 	}
 
-.menu ul li {
+.menu li {
 	border-right: 1px solid #e1e1e1;
 	border-left: 1px solid #eee;
 	display: inline-block;
@@ -42,11 +42,11 @@ a:hover {
 	padding: 0 10px;
 	}
 	
-.menu ul li:first-child {
+.menu li:first-child {
 	border-left:none;
 	}
 
-.menu ul li:last-child, .quicklinks ul li:last-child {
+.menu li:last-child, .quicklinks ul li:last-child {
 	border-right:none;
 	}
 	
@@ -215,12 +215,13 @@ div.quicklinks div {
 	border-right: 1px solid #e1e1e1;
 	line-height: 20px;
 	padding: 0 10px;
+		font-size: 11px;
 	}
 
 .quicklinks {
 	line-height: 2em;
 	color: #646567;
-	font-size: 1.1em;
+	font-size: 11px;
 	}
 
 .legal {
