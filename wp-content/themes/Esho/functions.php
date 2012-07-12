@@ -390,21 +390,41 @@ function twentyeleven_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Footer Area Left', 'twentyeleven' ),
 		'id' => 'footer_left',
-		'description' => __( 'An optional widget area for your site footer', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'description' => __( 'Vänster puffyta för sidfoten', 'twentyeleven' ),
+		'before_widget' => ' ',
+		'after_widget' => ' ',
+		'before_title' => ' ',
+		'after_title' => ' ',
 	) );
 
 	register_sidebar( array(
 		'name' => __( 'Footer Area Right', 'twentyeleven' ),
 		'id' => 'footer_right',
-		'description' => __( 'An optional widget area for your site footer', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'description' => __( 'Höger puffyta för sidfoten', 'twentyeleven' ),
+		'before_widget' => ' ',
+		'after_widget' => ' ',
+		'before_title' => ' ',
+		'after_title' => ' ',
+	) );
+
+	register_sidebar( array(
+		'name' => __( 'Footer Copyright', 'twentyeleven' ),
+		'id' => 'footer_copyright',
+		'description' => __( 'Mata in copyrighttexten brevid "quicklinks" i sidfoten', 'twentyeleven' ),
+		'before_widget' => ' ',
+		'after_widget' => ' ',
+		'before_title' => ' ',
+		'after_title' => ' ',
+	) );
+	
+		register_sidebar( array(
+		'name' => __( 'Below Footer', 'twentyeleven' ),
+		'id' => 'footer_below',
+		'description' => __( 'Yta att lägga saker under sidoten', 'twentyeleven' ),
+		'before_widget' => ' ',
+		'after_widget' => ' ',
+		'before_title' => ' ',
+		'after_title' => ' ',
 	) );
 
 }

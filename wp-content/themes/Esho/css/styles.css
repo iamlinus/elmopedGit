@@ -28,13 +28,13 @@ a:hover {
 	margin: 0 auto;
 	}
 	
-.menu {
+#menu-esho {
 	margin: 20px auto;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	}
 
-.menu li {
+#menu-esho li {
 	border-right: 1px solid #e1e1e1;
 	border-left: 1px solid #eee;
 	display: inline-block;
@@ -42,19 +42,19 @@ a:hover {
 	padding: 0 10px;
 	}
 	
-.menu li:first-child {
+#menu-esho li:first-child, #menu-quicklinks li:last-child {
 	border-left:none;
 	}
 
-.menu li:last-child, .quicklinks ul li:last-child {
+#menu-esho li:last-child, #menu-quicklinks li:last-child {
 	border-right:none;
 	}
 	
-.menu a {
+#menu-esho a {
 	color: #000000;
 	}
 
-.menu a:hover, .menu a:active, li.current_page_item a {
+#menu-esho a:hover, #menu-esho a:active, li.current_page_item a {
 	color: #41a62a;
 	text-decoration: none;
 	}
@@ -186,7 +186,7 @@ border: none !important;
 	margin: 0 1.5% 0 0;
 	}
 	
-.puffar img {
+img.puff-thumb {
 	float: right;
 	widht: 150px;
 	height: 150px;
@@ -198,29 +198,26 @@ div.quicklinks {
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
 	box-shadow:1px 1px 2px #e2e2e2;
+	line-height: 20px;
 	}
 
-div.quicklinks div {
+.quicklinks div.sixcol {
 	min-height: 15px;
 	margin: 9px;
 	font-align: right;
 	}
 
-.quicklinks ul {
+#menu-quicklinks {
 	text-align: right;
-	}
-
-.quicklinks ul li {
-	display: inline;
-	border-right: 1px solid #e1e1e1;
-	line-height: 20px;
-	padding: 0 10px;
-		font-size: 11px;
-	}
-
-.quicklinks {
 	line-height: 2em;
 	color: #646567;
+	font-size: 11px;
+	}
+
+#menu-quicklinks li {
+	display: inline;
+	border-right: 1px solid #e1e1e1;
+	padding: 0 10px;
 	font-size: 11px;
 	}
 

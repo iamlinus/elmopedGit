@@ -18,31 +18,26 @@
 		
 		<div class="row puffar">
 			<div class="sixcol leftpuff">
-				<div>
-							<?php dynamic_sidebar( 'footer_left' ); ?>
-				</div>
+				<?php dynamic_sidebar( 'footer_left' ); ?>
 			</div>
 			<div class="sixcol last">
-				<div>
-		<?php dynamic_sidebar( 'footer_right' ); ?>
-				</div>
+				<?php dynamic_sidebar( 'footer_right' ); ?>
 			</div>
 		</div>
 	
 		<div class="row quicklinks">
 			<div class="sixcol">
-				<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
+				<?php dynamic_sidebar( 'footer_copyright' ); ?>
 			</div>
 			<div class="sixcol last">
-<!-- Läser ut menyn. Mer info på http://codex.wordpress.org/Function_Reference/wp_nav_menu --> 
-<?php wp_nav_menu( array('menu' => 'Quicklinks' )); ?>
+				<!-- Läser ut menyn. Mer info på http://codex.wordpress.org/Function_Reference/wp_nav_menu --> 
+				<?php wp_nav_menu( array('menu' => 'Quicklinks' )); ?>
 			</div>
 		</div>
 		
 		<div class="row legal">
 			<div class="twelvecol">
-				<img src="/wp-content/themes/esho/bilder/logo.png" alt="Logo">
-				<p>Copyright. All rights reserved 2012 Esho Electric scooters.</p>
+		<?php dynamic_sidebar( 'footer_below' ); ?>
 			</div>
 		</div>
 	
