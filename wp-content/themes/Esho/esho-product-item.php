@@ -12,7 +12,10 @@
 	<div class="row top-content">
 		<div class="twelvecol">
 			<!--Get product name image-->
-			<?php echo get_post_meta($post->ID, 'ProductNameImage', true) ?>
+			<?php
+			$thumbnail_id = get_post_meta($post->ID, 'ProductNameImage', true);
+			echo wp_get_attachment_image($thumbnail_id, 'thumbnail');
+			?>
 			<!--Get submenu-->
 			<!--
 			<ul>
@@ -37,11 +40,11 @@
 			if(is_page() && $post->post_parent) {
 			    // This is a subpage
 			    //$children = wp_list_pages("title_li=&include=".$post->post_parent ."&echo=0");
-			    $children = list_pages_at_depth("title_li=&child_of=".$post->post_parent ."&echo=0&startdepth=2&depth=2");
+			    $children = wp_list_pages("title_li=&child_of=".$post->ID ."&echo=0&depth=1");
 			} else if($has_subpages) {
 			    // This is a parent page that have subpages
 			    //$children = wp_list_pages("title_li=&include=".$post->ID ."&echo=0");
-			    $children = list_pages_at_depth("title_li=&child_of=".$post->ID ."&echo=0&startdepth=2&depth=2");
+			    $children = wp_list_pages("title_li=&child_of=".$post->ID ."&echo=0&depth=1");
 			}
 			?>
 			<?php // Check to see if we have anything to output ?>
