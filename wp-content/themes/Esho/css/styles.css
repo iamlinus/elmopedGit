@@ -40,6 +40,7 @@ a:hover {
 	display: inline-block;
     line-height: 2em;
 	padding: 0 10px;
+	margin: -1px;
 	}
 	
 #menu-esho li:first-child, #menu-quicklinks li:last-child {
