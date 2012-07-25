@@ -67,6 +67,7 @@ a:hover {
 
 #slides {
 	z-index: 1;
+	min-height: 440px;
 	}
 		
 /* Slides container Important: Set the width of your slides container. Set to display none, prevents content flash */

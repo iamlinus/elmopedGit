@@ -32,7 +32,7 @@ echo wp_get_attachment_image($thumbnail_id, 'thumbnail');
 							<a href="<?php echo get_post_meta($post->ID, 'ProductLink1-5', true) ?>"><?php
 $thumbnail_id = get_post_meta($post->ID, 'ProductImage1-5', true);
 echo wp_get_attachment_image($thumbnail_id, 'thumbnail');
-?></a> -->
+?></a>
 			            </div>
 			            <div class="product_container" id="product_<?php echo get_post_meta($post->ID, 'ProductCategoryId2', true) ?>">
 <a href="<?php echo get_post_meta($post->ID, 'ProductLink2-1', true) ?>"><?php $thumbnail_id = get_post_meta($post->ID, 'ProductImage2-1', true); echo wp_get_attachment_image($thumbnail_id, 'thumbnail'); ?></a>
