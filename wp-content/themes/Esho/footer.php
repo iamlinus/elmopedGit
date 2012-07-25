@@ -47,7 +47,7 @@
 
 <script>
     $(document).ready(function() {
-        var displayed = "product_browser";
+        var displayed = "product_<?php echo get_post_meta($post->ID, 'ProductCategoryId1', true) ?>";
         var cindex = 0; // current index (displayed product)
 
         function loopMoveLeft(el, move) {
