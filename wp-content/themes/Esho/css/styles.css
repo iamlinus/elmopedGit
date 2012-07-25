@@ -337,6 +337,8 @@ div.quicklinks {
 	color: #646567;
 	font-size: 1.2em;
 	line-height: 1.4em;
+	padding: 40px 0 120px;
+	min-height: 240px;
 }
 
 .main-content .img img {
