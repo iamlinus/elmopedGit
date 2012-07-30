@@ -55,7 +55,7 @@ a:hover {
 	color: #000000;
 	}
 
-#menu-esho a:hover, #menu-esho a:active, li.current_page_item a {
+#menu-esho a:hover, #menu-esho a:active, #menu-esho .current_page_item a, #menu-esho .current-page-ancestor a {
 	color: #41a62a;
 	text-decoration: none;
 	}
@@ -323,7 +323,7 @@ div.quicklinks {
 	float: left;
 }
 
-.top-content ul li a:hover, .top-content ul li a:active {
+.top-content ul li a:hover, .top-content ul li a:active, .top-content .current_page_item a {
 	background: url("../bilder/hover_2nav.png") no-repeat scroll center 38px transparent;
 	display: block;
 	float: left;

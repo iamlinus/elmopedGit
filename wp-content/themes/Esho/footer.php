@@ -13,7 +13,7 @@
 	<div class="footer">
 		
 		<div class="grass">
-			<img src="/wp-content/themes/esho/bilder/grass.png">
+			<img src="/wp-content/themes/esho/bilder/grass.png" alt="" />
 		</div>
 		
 		<div class="row puffar">
@@ -45,7 +45,7 @@
 
 </div><!-- #container -->
 
-<script>
+<script type="text/javascript">
     $(document).ready(function() {
         var displayed = "product_<?php echo get_post_meta($post->ID, 'ProductCategoryId1', true) ?>";
         var cindex = 0; // current index (displayed product)
